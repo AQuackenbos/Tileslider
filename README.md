@@ -16,7 +16,7 @@ Takes images found in the container, using the first as a size guide (unless a s
 
 ## Release Notes
 
-v0.1 / 2014 Aug 22
+v0.1 / 2014 Aug 23
 Initial release.  "Functions".  Works in IE9 (barely) and up.
 
 ## Options
