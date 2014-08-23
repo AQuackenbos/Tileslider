@@ -1,0 +1,9 @@
+html,body { margin: 0; padding: 0 }
+
+.next, .prev {
+	height:16px;
+	width:16px;
+	background: #FFF;
+	border-radius:8px;
+	cursor:pointer;
+}

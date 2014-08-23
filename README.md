@@ -4,6 +4,7 @@ Tileslider
 A javascript image slider with tiles
 
 ## Usage
+Include tileslider.js on the page, and then instantiate it on the desired image container:
 
     var slider = new Tileslider('#selector',{/* options */});
 
@@ -16,7 +17,7 @@ Takes images found in the container, using the first as a size guide (unless a s
 ## Release Notes
 
 v0.1 / 2014 Aug 22
-Initial release.  "Functions".
+Initial release.  "Functions".  Works in IE9 (barely) and up.
 
 ## Options
 

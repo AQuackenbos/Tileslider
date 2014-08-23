@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Tileslider Demo</title>
+		<link rel="stylesheet" type="text/css" href="testimg/test.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<img src="testimg/test1.jpg"/>
+			<img src="testimg/test2.jpg"/>
+			<img src="testimg/test3.jpg"/>
+		</div>
+		<script type="text/javascript" src="tileslider.js"></script>
+		<script type="text/javascript">
+			var slider = new Tileslider('#container',{
+								tileWidth:100,
+								tileHeight:100,
+								partialTiles:false,
+								simultaneous:5,
+								transition:2
+							});
+		</script>
+	</body>
+</html>
